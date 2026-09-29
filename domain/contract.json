@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "分类改革督办台账",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804945.html",
+  "actors": [
+    "改革办公室",
+    "责任单位",
+    "核验人员"
+  ],
+  "states": [
+    "分派",
+    "接受",
+    "执行",
+    "核验",
+    "结案"
+  ],
+  "invariants": [
+    "事项依赖",
+    "证据核验",
+    "可注入时钟",
+    "恢复调度"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09301-020-A",
+      "actor": "改革办公室",
+      "state": "分派"
+    },
+    {
+      "case_id": "09301-020-B",
+      "actor": "核验人员",
+      "state": "接受"
+    }
+  ],
+  "tags": [
+    "reform-tracking",
+    "dependency-workflow"
+  ]
+}
